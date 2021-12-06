@@ -18,3 +18,26 @@ console.log(yourNumber.toString(2));
 console.log(yourNumber.toString(8));
 console.log(yourNumber.toString(16));
 
+// String
+let myString = "Hi codeit!";
+
+// 문자열 길이
+console.log(myString[3]); // 대괄호 표기법
+console.log(myString.charAt(3)); // charAt 메소드
+
+// 요소 탐색
+console.log(myString.indexOf('a')); // 앞부터
+console.log(myString.lastIndexOf('i')); // 뒤부터
+
+// 대소문자 변환
+console.log(myString.toUpperCase()); // 대문자
+console.log(myString.toLowerCase()); // 대문자
+
+// 양 끝 공백 제거
+console.log(myString.trim()); //
+
+// 부분 문자열 접근 slice(start, end)
+console.log(myString.slice(0,2));
+console.log(myString.slice(3));
+
+
